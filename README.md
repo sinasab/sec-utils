@@ -1,6 +1,11 @@
 # sec-utils
 https://sinasabet81.github.io/sec-utils/.
 
+## Disclaimer
+- This was made solely as a hobby project
+- This software is not audited or maintained; it may be insecure or out of date
+- Use it at your own risk; don't trust overly sensitive data with this unless you know what you're doing
+
 ## Motivation
 I found myself frequently wanting to generate passphrases composed of plain english words with a variety of different options; I also wanted to see if it was possible to encrypt arbitrary files with these generated passwords in a web browser. Turns out, you can!
 
