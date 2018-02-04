@@ -11,7 +11,7 @@ export default class App extends React.Component {
       <MainContainer>
         <MainHeader>
           <RotatingLogo src={logo} alt="logo" />
-          <MainTitle>crypto-utils</MainTitle>
+          <MainTitle>sec-utils</MainTitle>
         </MainHeader>
         <Passphrase />
         <Encrypter />
