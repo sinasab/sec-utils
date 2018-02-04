@@ -10,7 +10,7 @@ I found myself frequently wanting to generate passphrases composed of plain engl
 - copy to clipboard
 
 ### File Encrypter
-- encrypt/decrypt arbitrary files using keybase's [triplesec](https://github.com/keybase/triplesec) scheme
+- encrypt/decrypt and authenticate arbitrary files using keybase's [triplesec](https://github.com/keybase/triplesec) scheme
   - entails AES for encryption, HMAC for authentication
   - more on triplesec scheme: https://keybase.io/triplesec
 
