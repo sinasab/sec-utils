@@ -5,7 +5,7 @@ https://sinasabet81.github.io/sec-utils/.
 I found myself frequently wanting to generate passphrases composed of plain english words with a variety of different options; I also wanted to see if it was possible to encrypt arbitrary files with these generated passwords in a web browser. Turns out, you can!
 
 ### Passphrase generator
-- generates human-readable passphrase by randomly sampling from list of english words
+- generates human-readable passphrase by randomly sampling from [a corpus of english words](https://github.com/sinasabet81/sec-utils/blob/master/src/util/corpus.js)
 - options for including numbers, symbols, caps, number of words, and separator
 - copy to clipboard
 
