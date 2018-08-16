@@ -19,6 +19,14 @@ I found myself frequently wanting to generate passphrases composed of plain engl
   - entails AES for encryption, HMAC for authentication
   - more on triplesec scheme: https://keybase.io/triplesec
 
+#### File Encrypter Demo:
+[![File Encrypter Demo Link](https://thumbs.gfycat.com/AcclaimedWarlikeJerboa-size_restricted.gif)](https://github.com/sinasabet81/sec-utils/blob/master/docs/encrypter_demo.mov?raw=true)
+- [Link](https://github.com/sinasabet81/sec-utils/blob/master/docs/encrypter_demo.mov?raw=true) to full sized video
+- Demo shows encryption and decryption of an image file
+  - image loads/opens before encrypting
+  - after encrypting, image file doesn't open
+  - after decrypted encrypted version of the file, it opens again showing the same file
+
 ## Development
 This project was bootstrapped with `create-react-app`; check the [user guide](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md) (also [a copy in this repo](https://github.com/sinasabet81/sec-utils/blob/master/docs/create_react_app_user_guide.md)) for more info.
 
