@@ -17,7 +17,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages --dist build --user \"Sina Sabet <sinasabet81@gmail.com>\""
+    "deploy": "gh-pages --message \"auto commit [ci skip]\" --dist build --user \"Sina Sabet <sinasabet81@gmail.com>\""
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
