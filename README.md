@@ -1,5 +1,7 @@
 # sec-utils
-https://sinasabet81.github.io/sec-utils/.
+https://sinasabet81.github.io/sec-utils/
+
+[![CircleCI](https://circleci.com/gh/sinasabet81/sec-utils/tree/master.svg?style=svg)](https://circleci.com/gh/sinasabet81/sec-utils/tree/master)
 
 ## Disclaimer
 - This was made solely as a hobby project
