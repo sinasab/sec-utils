@@ -7,10 +7,22 @@ export const defaultGeneratorOptions = {
   minLength: 3,
   numWords: 3,
   randomlyCapitalize: false,
-  separator: ""
+  separator: "",
 };
 
-const rng = Math.random; // TODO change this maybe
+const hasWindowCryptoAPI = window.crypto && window.crypto.getRandomValues;
+if (!hasWindowCryptoAPI) {
+  console.error(`Error, can't access window crypto api!`);
+}
+
+// returns randomness between 0 and 1
+const rng = () => {
+  const randomBuffer = new Uint32Array(1);
+  window.crypto.getRandomValues(randomBuffer);
+  // convert to randomness between 0 and 1
+  const randomNumber = randomBuffer[0] / (0xffffffff + 1);
+  return randomNumber;
+};
 
 export function generate(options = {}) {
   const config = { ...defaultGeneratorOptions, ...options };
