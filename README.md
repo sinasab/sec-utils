@@ -4,9 +4,13 @@ https://sinasabet81.github.io/sec-utils/
 
 [![CircleCI](https://circleci.com/gh/sinasabet81/sec-utils/tree/master.svg?style=svg)](https://circleci.com/gh/sinasabet81/sec-utils/tree/master)
 
-### Obligatory Disclaimer
+---
+
+#### Obligatory Disclaimer
 
 Please don't trust this tool I built for fun with any sensitive usecases.
+
+---
 
 ## Motivation
 
@@ -33,6 +37,8 @@ I found myself frequently wanting to generate passphrases composed of plain engl
   - image loads/opens before encrypting
   - after encrypting, image file doesn't open
   - after decrypted encrypted version of the file, it opens again showing the same file
+
+---
 
 ## Development
 
