@@ -15,6 +15,7 @@ if (!hasWindowCryptoAPI) {
   console.error(`Error, can't access window crypto api!`);
 }
 
+// from https://stackoverflow.com/questions/13694626/generating-random-numbers-0-to-1-with-crypto-generatevalues
 // returns randomness between 0 and 1
 const rng = () => {
   const randomBuffer = new Uint32Array(1);

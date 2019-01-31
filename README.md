@@ -21,6 +21,7 @@ I found myself frequently wanting to generate passphrases composed of plain engl
 - generates human-readable passphrase by randomly sampling from [a corpus of english words](https://github.com/sinasabet81/sec-utils/blob/master/src/util/corpus.js)
 - options for including numbers, symbols, caps, number of words, and separator
 - copy to clipboard
+- randomness provided by the [web crypto api](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues)
 
 ### File Encrypter
 
