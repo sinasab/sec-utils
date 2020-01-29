@@ -5,9 +5,9 @@ export const defaultGeneratorOptions = {
   includeNumbers: false,
   maxLength: 9, // max and min lengths of acceptable words
   minLength: 3,
-  numWords: 3,
+  numWords: 4,
   randomlyCapitalize: false,
-  separator: "",
+  separator: " ",
 };
 
 const hasWindowCryptoAPI = window.crypto && window.crypto.getRandomValues;
