@@ -20,7 +20,7 @@
     "deploy": "gh-pages --message \"auto commit [ci skip]\" --dist build --user \"Sina Sabet <sinasabet81@gmail.com>\""
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^5.0.0"
   },
   "homepage": "https://sinasabet81.github.io/sec-utils/"
 }
